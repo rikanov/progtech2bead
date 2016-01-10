@@ -1,0 +1,86 @@
+CREATE TABLE Munkalap
+(
+      munkalap_id INT NOT NULL PRIMARY KEY,
+      vevo_id INT NOT NULL,
+      rendszam VARCHAR(10) NOT NULL,
+      dolgozo_id INT NOT NULL,
+      felvetel_datum VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE Dolgozo
+(
+    dolgozo_id INT NOT NULL PRIMARY KEY,
+    nev VARCHAR(40) NOT NULL,
+    varos VARCHAR(40) NOT NULL,
+    irsz VARCHAR(10) NOT NULL,
+    utca VARCHAR(40) NOT NULL,
+    tel VARCHAR(25) NOT NULL,
+    oradij INT NOT NULL
+);
+
+CREATE TABLE Ugyfel
+(
+    ugyfel_id INT NOT NULL PRIMARY KEY,
+    nev VARCHAR(40) NOT NULL,
+    varos VARCHAR(40) NOT NULL,
+    irsz VARCHAR(10) NOT NULL,
+    utca VARCHAR(40) NOT NULL,
+    tel VARCHAR(25) NOT NULL
+);
+
+CREATE TABLE AnyAlk
+(
+    anyag_id INT NOT NULL PRIMARY KEY,
+    cikkszam VARCHAR(20) NOT NULL,
+    nev VARCHAR(40) NOT NULL,
+    egysegar INT NOT NULL 
+);
+
+CREATE TABLE AnyMun
+(
+    anyagm_id INT NOT NULL,
+    anyag_id INT NOT NULL,
+    munkalap_id INT NOT NULL 
+);
+
+INSERT INTO ANYALK (ANYAG_ID, CIKKSZAM, NEV, EGYSEGAR) VALUES 
+(1,'06-01101','OX339/2D Mahle olajszûrõ',3140),
+(2,'06-03040','LA138 Mahle pollenszûrõ',4095),
+(3,'06-02149','S3262A Sofima levegõszûrõ',4490),
+(4,'11-00234','Quartz 9000 Energy 5W-40 5L',9500),
+(5,'16-00770','Ablaktörlõ Valeo VM417 700/650',11648),
+(6,'14-00639','6PK1050C Contitech hosszbordásszíj',4790),
+(7,'26-04348','34.47.710 Starline lengõkar gömbfej',3385),
+(8,'10-00043','Munkadíj',3000),
+(9,'05-00146','Izzó 12V 5W ba15s',83),
+(10,'05-00148','Izzó 12V 5W üvegfoglalatos W2, 1x9, 5d',70),
+(11,'05-00165','Izzó H1 12V 55W',572),
+(12,'26-00017','Kipufogódob szgk.',12400),
+(13,'26-03470','AK.30054 Akron motortartó gumibak',21700),
+(14,'18-00145','DIN 933 Hlf. Csavar 10x70 8.8',51),
+(15,'26-00107','LZKAR7A NGK gyújtógyertya',1880),
+(16,'10-00035','Abroncshotel',760),
+(17,'10-00019','Gumiszerelés',1150),
+(18,'26-02557','53569 Sidem stabilizátor',5095),
+(19,'26-02558','TA2463 Delphi axiálcsukló',5820),
+(20,'26-01170','TA977 Delphi kormány gömbfej',2835),
+(21,'16-00268','Kábelkötegelõ 286x4,8',23),
+(22,'16-00688','Kábelkötegelõ 380x7,8',51),
+(23,'05-00137','Izzó 12V 21W Ba15s',95),
+(24,'10-00030','Futómûállítás szgk.',5080),
+(25,'03-00446','195/65R15 Nokian W+ 91T',15490),
+(26,'03-01227','Szelep TR-414',100),
+(27,'11-00234','Fagyálló 1kg -72C G12',590),
+(28,'26-00719','VKMC03258 SKF vezérmûszíj készlet',47460),
+(29,'26-00720','FSL1399 Ferodo fékbetét',7730),
+(30,'26-00721','DDF1140 Ferodo féktárcsa',14400),
+(31,'50.20.11.4','Mûszaki vizsgadíj',9550),
+(32,'85113000','Gyújtó trafó',35550),
+(33,'64009A','Pollenszûrõ',1944),
+(34,'95R01A','Service - Systematic Operation',13610),
+(35,'38190000','Fékfolyadék',1770),
+(36,'84213100','Féktisztító',960),
+(37,'95600000','Klímatisztítás',10000);
+
+INSERT INTO UGYFEL (UGYFEL_ID, NEV, VAROS, IRSZ, UTCA, TEL) VALUES 
+(1,'Tele5 Taxi','Budapest','1555','Malom út 9.','+36-1-555-5555');

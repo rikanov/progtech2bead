@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelDolgozo" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelDolgozo" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelDolgozo">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbCime" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="cmdDolgozoMent" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="cmdDolgozoModosit" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbDolgozoNeve" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbVaros" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbIrsz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbUtca" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbTel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbDolgozok" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cmbDolgozok" alignment="0" min="-2" pref="166" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtDolgozoNeve" alignment="0" pref="170" max="32767" attributes="0"/>
+                                      <Component id="txtVaros" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtIrsz" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lbVarosHiba" alignment="0" min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Component id="lbIrszHiba" alignment="0" min="-2" pref="8" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lbNevlHiba" min="-2" pref="8" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txtOradij" min="-2" pref="58" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="lbFt" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="lbOradijHiba" min="-2" pref="8" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtTel" min="-2" pref="170" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbTelHiba" min="-2" pref="8" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtUtca" min="-2" pref="302" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cmdDolgozoMegse" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <Component id="lbUtcaHiba" alignment="0" min="-2" pref="8" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="15" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbDolgozok" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbDolgozok" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbNevlHiba" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Component id="lbFt" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbDolgozoNeve" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDolgozoNeve" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtOradij" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lbOradijHiba" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbCime" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="lbVaros" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtVaros" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lbVarosHiba" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbIrsz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtIrsz" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="lbUtca" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="txtUtca" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lbUtcaHiba" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="lbIrszHiba" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbTel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbTelHiba" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cmdDolgozoModosit" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cmdDolgozoMent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmdDolgozoMegse" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbVarosHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbNevlHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbUtcaHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIrszHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmbDolgozok">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="[nincs]"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbDolgozokActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cmdDolgozoModosit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xf3;dos&#xed;t"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdDolgozoModositActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cmdDolgozoMegse">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe9;gsem"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdDolgozoMegseActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbDolgozok">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dolgoz&#xf3;k:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTel">
+        </Component>
+        <Component class="javax.swing.JButton" name="cmdDolgozoMent">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ment"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdDolgozoMentActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtUtca">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbTel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefon:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbDolgozoNeve">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dolgoz&#xf3; neve:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbUtca">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Utca:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVaros">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVaros">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="V&#xe1;ros:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbCime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C&#xed;me"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtDolgozoNeve">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbTelHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIrsz">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIrsz">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Irsz:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xd3;rad&#xed;ja:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOradij">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ft"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbOradijHiba">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" id="Hyperlink.activeColor" palette="3" red="ff" type="palette"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
